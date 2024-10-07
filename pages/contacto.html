@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" />
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./biografia.html">Biografía</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <div class="contactoContent">
+        <div id="formulario">
+            <form action="" name="">
+                <h1 id="titulo">Formulario de contacto</h1>
+                <label for="nombre" class="textoForm">Nombre: </label><br>
+                <input type="text" placeholder="Nombre" class="cajaP" id="nombre" name="nombre" required /><br><br>
+                <label for="apellidos" class="textoForm">Apellidos: </label><br>
+                <input type="text" placeholder="Apellidos" class="cajaM" id="apellidos" name="apellidos" required /><br><br>
+                <label for="correo" class="textoForm">Email: </label><br>
+                <input
+                  type="email"
+                  class="cajaM"
+                  placeholder="Correo electrónico"
+                  name="correo"
+                  id="nombre"
+                  required
+                /><br><br>
+                <label for="asunto" class="textoForm">Asunto: </label><br>
+                <input type="text" class="cajaM" placeholder="Asunto" id="asunto" name="asunto" required /><br><br>
+                <label for="mensaje" class="textoForm">Mensaje: </label>
+                <textarea
+                  type="text"
+                  class="cajaG"
+                  placeholder="Mensaje"
+                  name="mensaje"
+                  required
+                ></textarea><br><br>
+                <input type="checkbox" class="inputForm" value="sí" id="suscription" name="suscription" />
+                <label for="suscription"
+                class="textoFormEsp">Acepto TODAS las condiciones sin habérmelas leído</label
+                ><br><br>
+                <input id="botonForm" type="submit" value="Enviar" />
+              </form>
+        </div>
+        
+    </div>
+</body>
+</html>
